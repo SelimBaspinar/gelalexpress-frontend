@@ -1,0 +1,29 @@
+@media screen and (max-width: 991px) {
+  .wsk-cp-product {
+    margin:40px auto;
+  }
+
+  .wsk-cp-product .wsk-cp-img {
+    top:-40px;
+  }
+
+  .wsk-cp-product .wsk-cp-img img {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  }
+
+  .wsk-cp-product .wsk-cp-text .category > span {
+    border-color:#ddd; 
+    box-shadow: none;
+    padding: 11px 28px;
+  }
+
+  .wsk-cp-product .wsk-cp-text .category {
+    margin-top: 0px;
+  }
+
+  a.buy-btn{
+    border-color: #FF9800;
+    background: #FF9800;
+    color: #fff;
+  }
+}

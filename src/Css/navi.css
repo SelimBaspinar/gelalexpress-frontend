@@ -1,0 +1,67 @@
+
+
+
+.nav_container {
+  background-color: rgb(232,95,95);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav_logo {
+  cursor: pointer;
+}
+
+.nav_left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_left > button {
+  margin-left: 1rem;
+  border: 2px solid whitesmoke;
+  padding: 0.5rem 1.5rem;
+  background-color: transparent;
+  border-radius: 0.5rem;
+  color: whitesmoke;
+}
+
+.nav_left > .nav_login {
+  border: 2px solid whitesmoke;
+  padding: 0.45rem 2rem;
+  border-radius: 0.5rem;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.nav_login i {
+  font-size: 1.5rem;
+  color: whitesmoke;
+}
+
+a.nav-link {
+  padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav_container {
+    display: initial;
+  }
+
+  .nav_left {
+    background-color: rgb(232,95,95);
+    padding: 1rem 0;
+  }
+
+  .nav_logo {
+    text-align: center;
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232,95,95);
+  }
+}
